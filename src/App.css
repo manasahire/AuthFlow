@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -12,7 +14,20 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.navbar a:hover {
+  background-color: #2fc6ef;
+  color: black;
+}
+.navbar{
+  overflow: hidden;
+  background-color: #61dafb;
+  display: block;
+  text-align: end ;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  text-transform: capitalize;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
